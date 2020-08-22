@@ -1,8 +1,9 @@
 module.exports = {
+  publicPath: '/',
   css: {
     loaderOptions: {
-      scss: {
-        data: '@import "@/assets/styles/common.scss";'
+      sass: {
+        prependData: '@import "./src/assets/styles/common.scss";'
       }
     }
   }

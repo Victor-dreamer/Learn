@@ -5,3 +5,12 @@ $Danger: #F56C6C;
 
 $blackBg: #303133;
 $textColor: #909399;
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
